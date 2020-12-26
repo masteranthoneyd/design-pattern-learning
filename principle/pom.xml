@@ -16,6 +16,7 @@
         <module>srp</module>
         <module>ocp</module>
         <module>lsp</module>
+        <module>isp</module>
     </modules>
 
     <properties>
@@ -52,6 +53,13 @@
             <version>3.1.0</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.75</version>
+        </dependency>
+
     </dependencies>
 
 </project>
