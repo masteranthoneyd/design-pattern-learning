@@ -1,4 +1,4 @@
-package com.yangbingdong.principle.isp.positive;
+package com.yangbingdong.principle.isp;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

@@ -1,4 +1,4 @@
-package com.yangbingdong.principle.isp.positive;
+package com.yangbingdong.principle.isp;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpServer;

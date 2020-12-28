@@ -1,4 +1,4 @@
-package com.yangbingdong.principle.isp.positive;
+package com.yangbingdong.principle.isp;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,4 +1,4 @@
-package com.yangbingdong.principle.isp.positive;
+package com.yangbingdong.principle.isp;
 
 /**
  * @author <a href="mailto:yangbingdong1994@gmail.com">yangbingdong</a>
