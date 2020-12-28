@@ -62,10 +62,4 @@ public class SimpleHttpServer extends AbstractVerticle {
     public void close() {
         vertx.close();
     }
-
-    public static void main(String[] args) {
-        Viewer redisViewer = new RedisConfig("127.0.0.1", "6379");
-
-
-    }
 }
