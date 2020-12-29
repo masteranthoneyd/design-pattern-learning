@@ -17,6 +17,7 @@
         <module>ocp</module>
         <module>lsp</module>
         <module>isp</module>
+        <module>dip</module>
     </modules>
 
     <properties>
