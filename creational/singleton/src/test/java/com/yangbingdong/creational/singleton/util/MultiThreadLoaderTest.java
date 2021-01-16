@@ -8,6 +8,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.function.Supplier;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -43,6 +44,11 @@ class MultiThreadLoaderTest {
 
         verify(supplier, times(concurrentNum)).get();
 
+    }
+
+    @Test
+    void testIllegalThreadNum() {
+        assertThrows(IllegalArgumentException.class, () -> new MultiThreadLoader(() -> new Singleton() {}, 10000));
     }
 
 }

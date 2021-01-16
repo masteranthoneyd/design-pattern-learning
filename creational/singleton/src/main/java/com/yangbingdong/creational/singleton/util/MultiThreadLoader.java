@@ -15,6 +15,7 @@ import java.util.function.Supplier;
 public class MultiThreadLoader implements Closeable {
 
     public static final int DEFAULT_CONCURRENT_NUM = 100;
+    public static final int MAX_CONCURRENT_NUM = 2000;
     private final ExecutorService executorService;
     private final int concurrentNum;
     private final ConcurrentHashMap<Object, String> map;
@@ -23,7 +24,7 @@ public class MultiThreadLoader implements Closeable {
     private final Supplier<Object> singletonFactory;
 
     public MultiThreadLoader(Supplier<Object> singletonFactory, int concurrentNum) {
-        if (concurrentNum < 0 || concurrentNum > 2000) {
+        if (concurrentNum < 0 || concurrentNum > MAX_CONCURRENT_NUM) {
             throw new IllegalArgumentException();
         }
         this.singletonFactory = singletonFactory;
