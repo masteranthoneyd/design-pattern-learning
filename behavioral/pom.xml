@@ -12,6 +12,7 @@
     <modules>
         <module>observer</module>
         <module>template-method</module>
+        <module>strategy</module>
     </modules>
 
     <artifactId>behavioral</artifactId>
