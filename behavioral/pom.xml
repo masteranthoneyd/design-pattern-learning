@@ -14,6 +14,7 @@
         <module>template-method</module>
         <module>strategy</module>
         <module>filter-chain</module>
+        <module>state</module>
     </modules>
 
     <artifactId>behavioral</artifactId>
