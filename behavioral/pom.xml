@@ -17,6 +17,7 @@
         <module>state</module>
         <module>iterator</module>
         <module>visitor</module>
+        <module>menento</module>
     </modules>
 
     <artifactId>behavioral</artifactId>
