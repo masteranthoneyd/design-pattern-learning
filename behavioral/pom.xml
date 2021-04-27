@@ -19,6 +19,7 @@
         <module>visitor</module>
         <module>menento</module>
         <module>command</module>
+        <module>interpreter</module>
     </modules>
 
     <artifactId>behavioral</artifactId>
