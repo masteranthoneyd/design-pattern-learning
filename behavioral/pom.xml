@@ -20,6 +20,7 @@
         <module>menento</module>
         <module>command</module>
         <module>interpreter</module>
+        <module>mediator</module>
     </modules>
 
     <artifactId>behavioral</artifactId>
